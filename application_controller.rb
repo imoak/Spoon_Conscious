@@ -4,7 +4,7 @@ require_relative 'models/recipes.rb'
 
 class MyApp < Sinatra::Base
 
-  get '/' do
+  get '/spoonconscious' do
     erb :index
   end
 
